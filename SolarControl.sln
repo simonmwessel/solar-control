@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarControl.Web", "src\SolarControl.Web\SolarControl.Web.csproj", "{CD135973-95FB-4010-939F-4DDA9256D19A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarControl.Infrastructure", "src\SolarControl.Infrastructure\SolarControl.Infrastructure.csproj", "{2B3BC698-5176-4358-83E2-5FA9A3F58BFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarControl.Application", "src\SolarControl.Application\SolarControl.Application.csproj", "{0C2D0100-004C-48BB-9416-6FEE7350EB00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarControl.Domain", "src\SolarControl.Domain\SolarControl.Domain.csproj", "{347953B8-B930-486E-A6FE-F56F3342F0D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9BAACC57-B54B-46EA-AAAF-295B3264D566}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarControl.UnitTests", "tests\SolarControl.UnitTests\SolarControl.UnitTests.csproj", "{4F7B61F9-2BDA-4BEC-A77F-84BB4EED625F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarControl.IntegrationTests", "tests\SolarControl.IntegrationTests\SolarControl.IntegrationTests.csproj", "{55F3BA78-78D7-4A2D-8301-BE52EBE57A06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD135973-95FB-4010-939F-4DDA9256D19A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD135973-95FB-4010-939F-4DDA9256D19A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD135973-95FB-4010-939F-4DDA9256D19A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD135973-95FB-4010-939F-4DDA9256D19A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B3BC698-5176-4358-83E2-5FA9A3F58BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B3BC698-5176-4358-83E2-5FA9A3F58BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B3BC698-5176-4358-83E2-5FA9A3F58BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B3BC698-5176-4358-83E2-5FA9A3F58BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C2D0100-004C-48BB-9416-6FEE7350EB00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C2D0100-004C-48BB-9416-6FEE7350EB00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C2D0100-004C-48BB-9416-6FEE7350EB00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C2D0100-004C-48BB-9416-6FEE7350EB00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{347953B8-B930-486E-A6FE-F56F3342F0D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{347953B8-B930-486E-A6FE-F56F3342F0D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{347953B8-B930-486E-A6FE-F56F3342F0D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{347953B8-B930-486E-A6FE-F56F3342F0D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F7B61F9-2BDA-4BEC-A77F-84BB4EED625F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F7B61F9-2BDA-4BEC-A77F-84BB4EED625F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F7B61F9-2BDA-4BEC-A77F-84BB4EED625F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F7B61F9-2BDA-4BEC-A77F-84BB4EED625F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55F3BA78-78D7-4A2D-8301-BE52EBE57A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F3BA78-78D7-4A2D-8301-BE52EBE57A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F3BA78-78D7-4A2D-8301-BE52EBE57A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F3BA78-78D7-4A2D-8301-BE52EBE57A06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F7B61F9-2BDA-4BEC-A77F-84BB4EED625F} = {9BAACC57-B54B-46EA-AAAF-295B3264D566}
+		{55F3BA78-78D7-4A2D-8301-BE52EBE57A06} = {9BAACC57-B54B-46EA-AAAF-295B3264D566}
+	EndGlobalSection
+EndGlobal

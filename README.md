@@ -1,2 +1,2 @@
-# victron-controller
-Victron SoC controlled charger via MQTT
+# Solar Control Web App
+Victron non-solar charging controller via MQTT
